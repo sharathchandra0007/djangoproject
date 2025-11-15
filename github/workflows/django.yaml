@@ -54,7 +54,7 @@ jobs:
         run: python manage.py collectstatic --noinput
 
       - name: Run tests
-        run: python manage.py test 
+        run: python manage.py test
 
       # You can add a deploy step here if needed
 
