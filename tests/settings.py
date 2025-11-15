@@ -10,5 +10,5 @@ DATABASES = {
         "NAME": ":memory:",
     }
 }
-
+# testing
 USE_TZ = True 
