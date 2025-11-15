@@ -3,11 +3,11 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "django-pagedown"
+name = "django"
 version = "1.0.0"
-description = "Pagedown widget for Django admin"
+description = "widget for Django admin"
 authors = [
-  { name = "Your Name" }
+  { name = "sarath" }
 ]
 readme = "README.md"
 requires-python = ">=3.8"
