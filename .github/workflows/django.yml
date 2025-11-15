@@ -26,12 +26,7 @@ jobs:
           --health-interval=10s
           --health-timeout=5s
           --health-retries=5
-
-    defaults:
-      run:
-        # If your Django project (manage.py) is inside a subfolder, set working-directory here
-        working-directory: ./your-django-folder
-
+          
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -57,4 +52,3 @@ jobs:
         run: python manage.py test
 
       # You can add a deploy step here if needed
-
